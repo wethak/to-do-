@@ -1,0 +1,46 @@
+.header {
+  background-color: #4696e5;
+  height: 300px;
+}
+.head-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin-right: 20%;
+}
+.head-elements h1 {
+  color: white;
+}
+.head-elements h5 {
+  color: white;
+}
+#add-btn {
+  width: 10%;
+  height: 30px;
+  color: white;
+  background-color: #4696e5;
+  border-radius: 7px;
+  margin-top: 10px;
+}
+#task-area {
+  width: 70%;
+  height: 30px;
+  border-radius: 7px;
+  color: #4696e5;
+  font-size: 20px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+.list {
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+}
+.undo{
+    text-decoration: line-through;
+}
